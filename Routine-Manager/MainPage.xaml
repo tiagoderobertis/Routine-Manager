@@ -1,0 +1,25 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoutineManager.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="Start training"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title">
+            </Label>
+            <Button Text="Rutina 1" WidthRequest="500" HeightRequest="250" Background="#FF0000"
+                    Clicked="OnButtonClicked">
+            </Button>
+
+            <Button Text="Crear rutina nueva"></Button>
+            
+            <Label Text="{Binding motivacion}" FontSize="Large" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
