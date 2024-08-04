@@ -1,0 +1,1 @@
+C:\Users\tiago\source\repos\RoutineManager\RoutineManager\RoutineManager.csproj;x64

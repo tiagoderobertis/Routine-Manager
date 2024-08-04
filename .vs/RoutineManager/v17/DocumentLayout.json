@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routinemanager\\routinemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routinemanager\\routinemanager\\dias\\lunes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\dias\\lunes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routinemanager\\routinemanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routinemanager\\routinemanager\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routinemanager\\routinemanager\\rutinas\\rutinauno.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\rutinas\\rutinauno.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routinemanager\\routinemanager\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\MainPage.xaml",
+              "RelativeDocumentMoniker": "RoutineManager\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\MainPage.xaml",
+              "RelativeToolTip": "RoutineManager\\MainPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAADCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T13:32:36.926Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "RoutineManager\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\MainPage.xaml.cs",
+              "RelativeToolTip": "RoutineManager\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:38:14.17Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "RoutineManager\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\MauiProgram.cs",
+              "RelativeToolTip": "RoutineManager\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T15:19:02.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lunes.xaml",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\Dias\\Lunes.xaml",
+              "RelativeDocumentMoniker": "RoutineManager\\Dias\\Lunes.xaml",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\Dias\\Lunes.xaml",
+              "RelativeToolTip": "RoutineManager\\Dias\\Lunes.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T14:32:11.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RutinaUno.xaml",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\Rutinas\\RutinaUno.xaml",
+              "RelativeDocumentMoniker": "RoutineManager\\Rutinas\\RutinaUno.xaml",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\Rutinas\\RutinaUno.xaml",
+              "RelativeToolTip": "RoutineManager\\Rutinas\\RutinaUno.xaml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T14:31:48.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\AppShell.xaml",
+              "RelativeDocumentMoniker": "RoutineManager\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\AppShell.xaml",
+              "RelativeToolTip": "RoutineManager\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T13:32:55.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

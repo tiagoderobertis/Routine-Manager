@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="RoutineManager.Rutinas.RutinaUno"
+			 Title="Rutina Uno">
+	<ScrollView>
+        <VerticalStackLayout Padding="15,0" Spacing="0" BackgroundColor="#BCF8FF">
+			<Label 
+				Text="¿Qué día toca hoy?"
+				VerticalOptions="Center" 
+				HorizontalOptions="Center" 
+				HorizontalTextAlignment="Center" 
+				TextColor="#000000" 
+				FontSize="35" 
+				FontFamily="Preview" 
+				Padding="0, 5, 0, 0"/>
+
+			<CollectionView Margin="0, 0, 0, 10" HorizontalOptions="Center" ItemsSource="{Binding DaysOfWeek}">
+				<CollectionView.ItemTemplate>
+					<DataTemplate>
+						<Frame CornerRadius="20"
+							   HasShadow="True"
+							   Padding="0"
+							   Margin="0,10"
+							   BackgroundColor="#00A2B4"
+							   WidthRequest="350"
+							   HeightRequest="100">
+							<Grid Padding="15">
+								<Label Text="{Binding DayName}"
+									   FontSize="50"
+									   TextColor="#FFFFFF"
+									   HorizontalOptions="Start"
+									   VerticalOptions="Start"/>
+								<Label Text="{Binding ExerciseTitle}"
+									   VerticalOptions="Center"
+                                       HorizontalOptions="End"
+									   Margin="20, 10, 0, 0"/>
+                                <Label Text="{Binding ExerciseDetail}"
+									   VerticalOptions="End"
+									   Margin="20, 50, 0, 0"/>
+                                <Grid.GestureRecognizers>
+									<TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.YourCommand}" CommandParameter="{Binding .}" />
+								</Grid.GestureRecognizers>
+							</Grid>
+						</Frame>
+
+					</DataTemplate>
+				</CollectionView.ItemTemplate>
+			</CollectionView>
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>
