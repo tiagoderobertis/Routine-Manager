@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "60T2n9KjMto=",
+  "dgSpecHash": "u9RgEw7niV8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\RoutineManager.csproj",
+  "projectFilePath": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiago\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\tiago\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

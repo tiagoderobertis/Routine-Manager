@@ -6,20 +6,20 @@
     <ScrollView>
         <VerticalStackLayout
         Padding="30,0"
-        Spacing="25" BackgroundColor="#BCF8FF">
+        Spacing="25" BackgroundColor="#263238">
             <Label Text="Start training"
-               TextColor="Black"
+               TextColor="White" 
                HorizontalTextAlignment="Center"
                FontSize="45"
                Padding="0,20,0,0" FontAutoScalingEnabled="True" FontFamily="Preview"
                >
             </Label>
-            <Button Text="Rutina 1" WidthRequest="350" HeightRequest="200" Background="#00A2B4"
-                Clicked="OnButtonClicked" FontSize="70" TextColor="#FFFFFF">
+            <Button Text="Rutina 1" WidthRequest="350" HeightRequest="200" Background="#455a64"
+                Clicked="OnButtonClicked" FontSize="70" TextColor="#e1f5fe">
             </Button>
 
             <Button Text="CREAR RUTINA NUEVA"
-                WidthRequest="300" HeightRequest="50" Background="#010744" BorderColor="#000000" BorderWidth="1" FontAutoScalingEnabled="True" TextColor="#FFFFFF" FontSize="18" FontFamily="Arial"/>
+                WidthRequest="300" HeightRequest="50" Background="#455a64" BorderColor="#546e7a" BorderWidth="1" FontAutoScalingEnabled="True" TextColor="#FFFFFF" FontSize="18" FontFamily="Arial"/>
 
             <Label Text="{Binding motivacion}" FontSize="Large" HorizontalTextAlignment="Center"/>
         </VerticalStackLayout>

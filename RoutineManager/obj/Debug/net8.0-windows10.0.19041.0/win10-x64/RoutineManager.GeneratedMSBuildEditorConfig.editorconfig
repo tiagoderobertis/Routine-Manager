@@ -8,47 +8,47 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RoutineManager
-build_property.ProjectDir = C:\Users\tiago\source\repos\RoutineManager\RoutineManager\
+build_property.ProjectDir = C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/tiago/source/repos/RoutineManager/RoutineManager/App.xaml]
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/tiago/source/repos/RoutineManager/RoutineManager/AppShell.xaml]
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/tiago/source/repos/RoutineManager/RoutineManager/Dias/Lunes.xaml]
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/Dias/Lunes.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.Dias.Lunes.xaml
 build_metadata.AdditionalFiles.TargetPath = Dias\Lunes.xaml
 build_metadata.AdditionalFiles.RelativePath = Dias\Lunes.xaml
 
-[C:/Users/tiago/source/repos/RoutineManager/RoutineManager/MainPage.xaml]
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/tiago/source/repos/RoutineManager/RoutineManager/Resources/Styles/Colors.xaml]
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/tiago/source/repos/RoutineManager/RoutineManager/Resources/Styles/Styles.xaml]
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/tiago/source/repos/RoutineManager/RoutineManager/Rutinas/RutinaUno.xaml]
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/Rutinas/RutinaUno.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.Rutinas.RutinaUno.xaml
 build_metadata.AdditionalFiles.TargetPath = Rutinas\RutinaUno.xaml

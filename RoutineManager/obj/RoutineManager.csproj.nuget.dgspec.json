@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\RoutineManager.csproj": {}
+    "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\RoutineManager.csproj": {
+    "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\RoutineManager.csproj",
+        "projectUniqueName": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineManager.csproj",
         "projectName": "RoutineManager",
-        "projectPath": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\RoutineManager.csproj",
+        "projectPath": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineManager.csproj",
         "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\source\\repos\\RoutineManager\\RoutineManager\\obj\\",
+        "outputPath": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -250,7 +250,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {
