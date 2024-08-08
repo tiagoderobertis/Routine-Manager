@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoutineManager.RoutineCreator"
+             Title="Crea tu rutina!"
+             >
+    <VerticalStackLayout BackgroundColor="#263238">
+        <Label 
+            Text="Nombre de la rutina:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="20" 
+            
+            TextColor="#E1F5FE"
+            Margin="10,10,0,0" FontFamily="Arial"/>
+
+        <Entry Placeholder="Rutina Completa" 
+               Margin="10,5,0,0"></Entry>
+
+        <Label 
+            Text="Agrega una pequeña descripción:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="15" 
+    
+            TextColor="#E1F5FE"
+            Margin="10,10,0,0" FontFamily="Arial"/>
+
+        <Entry Placeholder="Push - Pull - Legs" 
+               Margin="10,5,0,0"></Entry>
+
+        <Label 
+            Text="¿Cuantos dias ocupa esta rutina?"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="15" 
+    
+            TextColor="#E1F5FE"
+            Margin="10,10,0,0" FontFamily="Arial"/>
+
+        <Grid VerticalOptions="FillAndExpand" BackgroundColor="#263238">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="1" Grid.Column="0" Text="1" VerticalOptions="Center" TextColor="#E1F5FE" Margin="9,0,0,0"></Label>
+            <CheckBox Grid.Row="1" Grid.Column="1" Margin="-8,0,0,0"/>
+            <Label Grid.Row="1" Grid.Column="2" Text="2" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"></Label>
+            <CheckBox Grid.Row="1" Grid.Column="3" Margin="-8,0,0,0"/>
+            <Label Grid.Row="1" Grid.Column="4" Text="3" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"></Label>
+            <CheckBox Grid.Row="1" Grid.Column="5" Margin="-8,0,0,0"/>
+            <Label Grid.Row="1" Grid.Column="6" Text="4" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"></Label>
+            <CheckBox Grid.Row="1" Grid.Column="7" Margin="-8,0,0,0"/>
+            <Label Grid.Row="1" Grid.Column="8" Text="5" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"></Label>
+            <CheckBox Grid.Row="1" Grid.Column="9" Margin="-8,0,0,0"/>
+            <Label Grid.Row="1" Grid.Column="10" Text="6" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"></Label>
+            <CheckBox Grid.Row="1" Grid.Column="11" Margin="-8,0,0,0"/>
+            <Label Grid.Row="1" Grid.Column="12" Text="7" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"></Label>
+            <CheckBox Grid.Row="1" Grid.Column="13" Margin="1,0,0,0"/>
+        </Grid>
+        
+        
+        
+
+    </VerticalStackLayout>
+</ContentPage>

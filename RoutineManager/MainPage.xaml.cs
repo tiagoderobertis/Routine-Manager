@@ -27,9 +27,9 @@ namespace RoutineManager
             BindingContext = this;
         }
 
-        private async void OnButtonClicked(object sender, EventArgs e)
+        private async void newRoutineOnClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Rutinas.RutinaUno());
+            await Navigation.PushAsync(new RoutineCreator());
         }
 
     }

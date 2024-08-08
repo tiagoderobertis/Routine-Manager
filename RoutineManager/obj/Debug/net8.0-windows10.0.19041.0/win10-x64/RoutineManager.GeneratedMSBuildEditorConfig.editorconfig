@@ -48,6 +48,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/RoutineCreator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.RoutineCreator.xaml
+build_metadata.AdditionalFiles.TargetPath = RoutineCreator.xaml
+build_metadata.AdditionalFiles.RelativePath = RoutineCreator.xaml
+
 [C:/Users/tiago/source/repos/Routine-Manager/RoutineManager/RoutineManager/Rutinas/RutinaUno.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoutineManager.Rutinas.RutinaUno.xaml

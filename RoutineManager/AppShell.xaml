@@ -9,7 +9,9 @@
     Shell.TitleColor="#e1f5fe"
     Shell.ForegroundColor="white"
     Shell.TabBarBackgroundColor="#455a64"
-    Shell.NavBarHasShadow="True">
+    Shell.NavBarHasShadow="True"
+    Shell.TabBarForegroundColor="#e1f5fe"
+    Shell.TabBarTitleColor="#e1f5fe">
     
     <TabBar>
         <Tab Title="Inicio">
