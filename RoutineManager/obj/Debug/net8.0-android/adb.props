@@ -1,2 +1,2 @@
-AdbTarget=-s ZY3282BFRZ
+AdbTarget=-s emulator-5554
 AdbOptions=

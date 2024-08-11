@@ -2,15 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RoutineManager.MainPage"
-             Title="Routine Manager"
-             
-             >
+             Title="Tech group">
 
     <ScrollView>
         <VerticalStackLayout
         Padding="30,0"
         Spacing="25" BackgroundColor="#263238">
-            <Label Text="Start training"
+            <Label Text="routine manager"
                TextColor="White" 
                HorizontalTextAlignment="Center"
                FontSize="45"
@@ -20,29 +18,28 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame CornerRadius="20"
-				           HasShadow="True"
-				           Padding="0"
-				           Margin="0,10"
-				           BackgroundColor="#455a64"
-				           WidthRequest="350"
-				           HeightRequest="100">
+                   HasShadow="True"
+                   Padding="0"
+                   Margin="0,10"
+                   BackgroundColor="#455a64"
+                   WidthRequest="350"
+                   HeightRequest="100">
                             <Grid Padding="15">
-                                <Label Text="{Binding RoutineName}"
-						   FontSize="50"
-						   TextColor="#e1f5fe"
-						   HorizontalOptions="Start"
-						   VerticalOptions="Start"/>
-                                
+                                <Label Text="{Binding DayName}"
+                           FontSize="50"
+                           TextColor="#e1f5fe"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"/>
+
                                 <Label Text="{Binding ExerciseDetail}"
-						   VerticalOptions="End"
-						   Margin="20, 50, 0, 0"/>
-                                
+                           VerticalOptions="End"
+                           Margin="20, 50, 0, 0"/>
+
                                 <Grid.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.YourCommand}" CommandParameter="{Binding .}" />
                                 </Grid.GestureRecognizers>
                             </Grid>
                         </Frame>
-
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

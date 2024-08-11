@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoutineManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8f8845e1a732de6986f5f14292cf3037fcedc04b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3c205169b7522c21944f07dc19e5e11dadfb802b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoutineManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoutineManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

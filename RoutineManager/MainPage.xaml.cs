@@ -21,15 +21,28 @@ namespace RoutineManager
             }
         }
 
+        
+
         public MainPage()
         {
             InitializeComponent();
             BindingContext = this;
+            
         }
+
+        string text1;
 
         private async void newRoutineOnClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RoutineCreator());
+            var routineCreator = new RoutineCreator();
+
+            // Suscribirse al evento ValueConfirmed
+            routineCreator.ValueConfirmed += (value) =>
+            {
+                lblResult.Text = value;
+            };
+
+            await Navigation.PushAsync(routineCreator);
         }
 
     }
