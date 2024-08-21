@@ -57,11 +57,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="NewFolder1\**" />
 	  <AndroidResource Remove="NewFolder\**" />
+	  <Compile Remove="NewFolder1\**" />
 	  <Compile Remove="NewFolder\**" />
+	  <EmbeddedResource Remove="NewFolder1\**" />
 	  <EmbeddedResource Remove="NewFolder\**" />
+	  <MauiCss Remove="NewFolder1\**" />
 	  <MauiCss Remove="NewFolder\**" />
+	  <MauiXaml Remove="NewFolder1\**" />
 	  <MauiXaml Remove="NewFolder\**" />
+	  <None Remove="NewFolder1\**" />
 	  <None Remove="NewFolder\**" />
 	</ItemGroup>
 
@@ -72,13 +78,43 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Dias\Lunes.xaml">
+	  <Compile Update="NewRoutineButton\ExerciseCreator.xaml.cs">
+	    <DependentUpon>ExerciseCreator.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Routine\StartRoutine.xaml.cs">
+	    <DependentUpon>StartRoutine.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Routine\DaysOfRoutine.xaml.cs">
+	    <DependentUpon>DaysOfRoutine.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="NewRoutineButton\ExerciseCreator.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewRoutineButton\DaySelector.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewRoutineButton\PreloadedExercises.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewRoutineButton\RoutineAdder.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewRoutineButton\SavedExercises.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Routine\StartRoutine.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="RoutineCreator.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Rutinas\RutinaUno.xaml">
+	  <MauiXaml Update="Routine\Exercise.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Routine\DaysOfRoutine.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

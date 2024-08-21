@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-08T16:33:39.872</Modified>
+      <Modified>2024-08-17T23:05:36.791</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-08-08T16:33:39.681</Modified>
+      <Modified>2024-08-17T23:05:36.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RoutineManager.runtimeconfig.json">
       <PackagePath>RoutineManager.runtimeconfig.json</PackagePath>
-      <Modified>2024-08-08T16:33:39.355</Modified>
+      <Modified>2024-08-17T23:05:36.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RoutineManager.dll">
       <PackagePath>RoutineManager.dll</PackagePath>
-      <Modified>2024-08-08T16:33:37.937</Modified>
+      <Modified>2024-08-17T23:05:34.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>RoutineManager.exe</PackagePath>
-      <Modified>2024-08-08T16:33:37.991</Modified>
+      <Modified>2024-08-17T23:05:35.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,23 +56,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:28.711</Modified>
+      <Modified>2024-08-16T02:22:12.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:28.732</Modified>
+      <Modified>2024-08-16T02:22:13.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:28.759</Modified>
+      <Modified>2024-08-16T02:22:13.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:28.797</Modified>
+      <Modified>2024-08-16T02:22:13.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:28.946</Modified>
+      <Modified>2024-08-16T02:22:13.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Accuratist.otf">
       <PackagePath>Accuratist.otf</PackagePath>
@@ -92,211 +92,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-08-04T13:24:30.741</Modified>
+      <Modified>2024-08-16T02:22:15.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.733</Modified>
+      <Modified>2024-08-16T02:22:15.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.733</Modified>
+      <Modified>2024-08-16T02:22:15.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.733</Modified>
+      <Modified>2024-08-16T02:22:15.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.733</Modified>
+      <Modified>2024-08-16T02:22:15.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.732</Modified>
+      <Modified>2024-08-16T02:22:15.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.738</Modified>
+      <Modified>2024-08-16T02:22:15.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.738</Modified>
+      <Modified>2024-08-16T02:22:15.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.737</Modified>
+      <Modified>2024-08-16T02:22:15.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.738</Modified>
+      <Modified>2024-08-16T02:22:15.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.738</Modified>
+      <Modified>2024-08-16T02:22:15.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.739</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.739</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.738</Modified>
+      <Modified>2024-08-16T02:22:15.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.739</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.738</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.740</Modified>
+      <Modified>2024-08-16T02:22:15.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.740</Modified>
+      <Modified>2024-08-16T02:22:15.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.740</Modified>
+      <Modified>2024-08-16T02:22:15.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.740</Modified>
+      <Modified>2024-08-16T02:22:15.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.740</Modified>
+      <Modified>2024-08-16T02:22:15.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.740</Modified>
+      <Modified>2024-08-16T02:22:15.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.739</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.739</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.739</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.739</Modified>
+      <Modified>2024-08-16T02:22:15.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.735</Modified>
+      <Modified>2024-08-16T02:22:15.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.735</Modified>
+      <Modified>2024-08-16T02:22:15.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.735</Modified>
+      <Modified>2024-08-16T02:22:15.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.734</Modified>
+      <Modified>2024-08-16T02:22:15.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.734</Modified>
+      <Modified>2024-08-16T02:22:15.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.736</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.736</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.735</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.735</Modified>
+      <Modified>2024-08-16T02:22:15.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.735</Modified>
+      <Modified>2024-08-16T02:22:15.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.737</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.737</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.737</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.736</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.736</Modified>
+      <Modified>2024-08-16T02:22:15.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.734</Modified>
+      <Modified>2024-08-16T02:22:15.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.734</Modified>
+      <Modified>2024-08-16T02:22:15.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.734</Modified>
+      <Modified>2024-08-16T02:22:15.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.734</Modified>
+      <Modified>2024-08-16T02:22:15.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.733</Modified>
+      <Modified>2024-08-16T02:22:15.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.742</Modified>
+      <Modified>2024-08-16T02:22:15.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.741</Modified>
+      <Modified>2024-08-16T02:22:15.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.741</Modified>
+      <Modified>2024-08-16T02:22:15.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.741</Modified>
+      <Modified>2024-08-16T02:22:15.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-08-04T13:24:30.741</Modified>
+      <Modified>2024-08-16T02:22:15.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RoutineManager.deps.json">
       <PackagePath>RoutineManager.deps.json</PackagePath>
-      <Modified>2024-08-08T16:33:39.200</Modified>
+      <Modified>2024-08-17T23:05:36.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

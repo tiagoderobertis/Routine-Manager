@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\newroutinebutton\\routinecreator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\newroutinebutton\\routinecreator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\newroutinebutton\\routinecreator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\newroutinebutton\\routinecreator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\routinecreator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\routinecreator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\newroutinebutton\\dayselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\newroutinebutton\\dayselector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\routinecreatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\routinecreatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\routinecreator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\routinecreator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|solutionrelative:routinemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C12D7F-ECF2-41AA-9DA3-3DD0FFE1AAE6}|RoutineManager\\RoutineManager.csproj|c:\\users\\tiago\\source\\repos\\routine-manager\\routinemanager\\routinemanager\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,21 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\MainPage.xaml",
               "RelativeDocumentMoniker": "RoutineManager\\MainPage.xaml",
               "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\MainPage.xaml",
               "RelativeToolTip": "RoutineManager\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-04T13:32:36.926Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -61,18 +64,17 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T04:20:32.128Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "RoutineManager\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\MainPage.xaml.cs",
               "RelativeToolTip": "RoutineManager\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAA3AAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwA8AAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T13:38:14.17Z",
               "IsPinned": true,
@@ -80,49 +82,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoutineCreator.xaml",
-              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineCreator.xaml",
-              "RelativeDocumentMoniker": "RoutineManager\\RoutineCreator.xaml",
-              "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineCreator.xaml",
-              "RelativeToolTip": "RoutineManager\\RoutineCreator.xaml",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAmwB8AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-08T15:28:35.203Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RoutineCreatorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineCreatorViewModel.cs",
-              "RelativeDocumentMoniker": "RoutineManager\\RoutineCreatorViewModel.cs",
-              "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineCreatorViewModel.cs",
-              "RelativeToolTip": "RoutineManager\\RoutineCreatorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T15:44:25.654Z",
-              "IsPinned": true,
+              "Title": "DaySelector.xaml",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\NewRoutineButton\\DaySelector.xaml",
+              "RelativeDocumentMoniker": "RoutineManager\\NewRoutineButton\\DaySelector.xaml",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\NewRoutineButton\\DaySelector.xaml",
+              "RelativeToolTip": "RoutineManager\\NewRoutineButton\\DaySelector.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T21:19:45.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "RoutineCreator.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineCreator.xaml.cs",
-              "RelativeDocumentMoniker": "RoutineManager\\RoutineCreator.xaml.cs",
-              "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\RoutineCreator.xaml.cs",
-              "RelativeToolTip": "RoutineManager\\RoutineCreator.xaml.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwA8AAAAvAAAA",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\NewRoutineButton\\RoutineCreator.xaml.cs",
+              "RelativeDocumentMoniker": "RoutineManager\\NewRoutineButton\\RoutineCreator.xaml.cs",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\NewRoutineButton\\RoutineCreator.xaml.cs*",
+              "RelativeToolTip": "RoutineManager\\NewRoutineButton\\RoutineCreator.xaml.cs*",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAIwKwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T15:42:06.355Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-08-19T21:18:18.208Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoutineCreator.xaml",
+              "DocumentMoniker": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\NewRoutineButton\\RoutineCreator.xaml",
+              "RelativeDocumentMoniker": "RoutineManager\\NewRoutineButton\\RoutineCreator.xaml",
+              "ToolTip": "C:\\Users\\tiago\\source\\repos\\Routine-Manager\\RoutineManager\\RoutineManager\\NewRoutineButton\\RoutineCreator.xaml",
+              "RelativeToolTip": "RoutineManager\\NewRoutineButton\\RoutineCreator.xaml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGkAAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T21:18:12.629Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -13,41 +13,12 @@
                HorizontalTextAlignment="Center"
                FontSize="45"
                Padding="0,20,0,0" FontAutoScalingEnabled="True" FontFamily="Preview"/>
-
-            <CollectionView Margin="0, 0, 0, 10" HorizontalOptions="Center" ItemsSource="{Binding DaysOfWeek}">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Frame CornerRadius="20"
-                   HasShadow="True"
-                   Padding="0"
-                   Margin="0,10"
-                   BackgroundColor="#455a64"
-                   WidthRequest="350"
-                   HeightRequest="100">
-                            <Grid Padding="15">
-                                <Label Text="{Binding DayName}"
-                           FontSize="50"
-                           TextColor="#e1f5fe"
-                           HorizontalOptions="Start"
-                           VerticalOptions="Start"/>
-
-                                <Label Text="{Binding ExerciseDetail}"
-                           VerticalOptions="End"
-                           Margin="20, 50, 0, 0"/>
-
-                                <Grid.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.YourCommand}" CommandParameter="{Binding .}" />
-                                </Grid.GestureRecognizers>
-                            </Grid>
-                        </Frame>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+            <StackLayout x:Name="stackLayoutBotones"></StackLayout>
 
             <Button Text="CREAR RUTINA NUEVA"
                 WidthRequest="300" HeightRequest="50" Background="#455a64" BorderColor="#546e7a" BorderWidth="1" FontAutoScalingEnabled="True" TextColor="#FFFFFF" FontSize="18" FontFamily="Arial" Clicked="newRoutineOnClicked"/>
 
-            <Label Text="{Binding motivacion}" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <Label Text="" FontSize="Large" HorizontalTextAlignment="Center"/>
         </VerticalStackLayout>
     </ScrollView>
 

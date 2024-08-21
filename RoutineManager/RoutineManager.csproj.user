@@ -15,13 +15,28 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Dias\Lunes.xaml">
+    <MauiXaml Update="NewRoutineButton\ExerciseCreator.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="RoutineCreator.xaml">
+    <MauiXaml Update="NewRoutineButton\DaySelector.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Rutinas\RutinaUno.xaml">
+    <MauiXaml Update="NewRoutineButton\PreloadedExercises.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="NewRoutineButton\RoutineAdder.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="NewRoutineButton\SavedExercises.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Routine\StartRoutine.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Routine\Exercise.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Routine\DaysOfRoutine.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
