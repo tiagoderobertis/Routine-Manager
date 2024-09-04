@@ -31,16 +31,15 @@
                FontFamily="Arial"/>
 
         <Entry Grid.Row="1" 
-               x:Name="entryNombreValue"
-               TextChanged="OnEntryNombreChanged"
                Placeholder="Rutina Completa" 
                Margin="10,5,50,0"
                BackgroundColor="#37474F"
-               TextColor="#E1F5FE"/>
+               TextColor="#E1F5FE"
+               Text="{Binding NombreRutina}"/>
+          <!-- Text="{Binding OnEntryNombreChanged}" -->
 
         <!-- Descripción de la Rutina -->
         <Label Grid.Row="2" 
-               
                Text="Agrega una pequeña descripción:" 
                VerticalOptions="Center" 
                HorizontalOptions="Start" 
@@ -50,15 +49,15 @@
                FontFamily="Arial"/>
 
         <Entry Grid.Row="3" 
-               x:Name="entryDescripcionValue"
-               TextChanged="OnEntryDescripcionChanged"
                Placeholder="Push - Pull - Legs" 
                Margin="10,5,50,0"
                BackgroundColor="#37474F"
-               TextColor="#E1F5FE"/>
+               TextColor="#E1F5FE"
+               Text="{Binding DescripcionRutina}"
+               />
+        <!-- Text="{Binding OnEntryNombreChanged}" -->
 
         <Label Grid.Row="4" 
-               
                Text="¿Cuántos días ocupa esta rutina?" 
                VerticalOptions="Start" 
                HorizontalOptions="Start" 
@@ -70,42 +69,20 @@
         <Grid Grid.Row="5" VerticalOptions="Start">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
-                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <!-- Días y CheckBoxes -->
-            <Label Grid.Row="0" Grid.Column="0" Text="1" VerticalOptions="Center" TextColor="#E1F5FE" Margin="9,0,0,0"/>
-            <CheckBox Grid.Row="0" Grid.Column="1" Margin="-8,0,0,0" x:Name="OneDay" CheckedChanged="OnDayCheckedChanged" />
-            <Label Grid.Row="0" Grid.Column="2" Text="2" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"/>
-            <CheckBox Grid.Row="0" Grid.Column="3" Margin="-8,0,0,0" x:Name="TwoDays" CheckedChanged="OnDayCheckedChanged"/>
-            <Label Grid.Row="0" Grid.Column="4" Text="3" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"/>
-            <CheckBox Grid.Row="0" Grid.Column="5" Margin="-8,0,0,0" x:Name="ThreeDays" CheckedChanged="OnDayCheckedChanged"/>
-            <Label Grid.Row="0" Grid.Column="6" Text="4" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"/>
-            <CheckBox Grid.Row="0" Grid.Column="7" Margin="-8,0,0,0" x:Name="FourDays" CheckedChanged="OnDayCheckedChanged"/>
-            <Label Grid.Row="0" Grid.Column="8" Text="5" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"/>
-            <CheckBox Grid.Row="0" Grid.Column="9" Margin="-8,0,0,0" x:Name="FiveDays" CheckedChanged="OnDayCheckedChanged"/>
-            <Label Grid.Row="0" Grid.Column="10" Text="6" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"/>
-            <CheckBox Grid.Row="0" Grid.Column="11" Margin="-8,0,0,0" x:Name="SixDays" CheckedChanged="OnDayCheckedChanged"/>
-            <Label Grid.Row="0" Grid.Column="12" Text="7" VerticalOptions="Center" TextColor="#E1F5FE" Margin="0,0,0,0"/>
-            <CheckBox Grid.Row="0" Grid.Column="13" Margin="1,0,0,0" x:Name="SevenDays" CheckedChanged="OnDayCheckedChanged"/>
-
-            
+            <!-- Slider correctamente posicionado -->
+            <Slider Grid.Row="0" 
+                Minimum="1" 
+                Maximum="7" 
+                Value="{Binding DiasRutina}" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                />
         </Grid>
 
         <Button 
@@ -122,7 +99,7 @@
             HorizontalOptions="Center"
             VerticalOptions="Start"
             Margin="10,20,0,0"
-            Clicked="AddExerciseToRoutineOnClicked"/>
+            Command="{Binding AddExercisesCommand}"/>
 
         <Label 
             Text="Ejercicios añadidos:"
@@ -148,7 +125,7 @@
         HorizontalOptions="Center"
         VerticalOptions="Center"
         Margin="0,0,0,20"
-        Clicked="AddRoutineButtonClicked"/>
+        Command="{Binding AddRoutineCommand}"/>
 
         
 

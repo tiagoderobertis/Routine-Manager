@@ -7,7 +7,8 @@
     <ScrollView>
         <VerticalStackLayout
         Padding="30,0"
-        Spacing="25" BackgroundColor="#263238">
+        Spacing="25" BackgroundColor="#263238"
+        x:Name="StackLayoutMain">
             <Label Text="routine manager"
                TextColor="White" 
                HorizontalTextAlignment="Center"
@@ -16,7 +17,7 @@
             <StackLayout x:Name="stackLayoutBotones"></StackLayout>
 
             <Button Text="CREAR RUTINA NUEVA"
-                WidthRequest="300" HeightRequest="50" Background="#455a64" BorderColor="#546e7a" BorderWidth="1" FontAutoScalingEnabled="True" TextColor="#FFFFFF" FontSize="18" FontFamily="Arial" Clicked="newRoutineOnClicked"/>
+                WidthRequest="300" HeightRequest="50" Background="#455a64" BorderColor="#546e7a" BorderWidth="1" FontAutoScalingEnabled="True" TextColor="#FFFFFF" FontSize="18" FontFamily="Arial" Command="{Binding NewRoutineCommand}"/>
 
             <Label Text="" FontSize="Large" HorizontalTextAlignment="Center"/>
         </VerticalStackLayout>
