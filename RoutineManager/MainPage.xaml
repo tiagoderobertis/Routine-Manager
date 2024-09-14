@@ -15,7 +15,7 @@
                FontSize="45"
                Padding="0,20,0,0" FontAutoScalingEnabled="True" FontFamily="Preview"/>
             <StackLayout x:Name="stackLayoutBotones"></StackLayout>
-
+            <Label x:Name="LabelRutina" IsVisible="true" Text="No haz creado ninguna rutina, crea una!"></Label>
             <Button Text="CREAR RUTINA NUEVA"
                 WidthRequest="300" HeightRequest="50" Background="#455a64" BorderColor="#546e7a" BorderWidth="1" FontAutoScalingEnabled="True" TextColor="#FFFFFF" FontSize="18" FontFamily="Arial" Command="{Binding NewRoutineCommand}"/>
 

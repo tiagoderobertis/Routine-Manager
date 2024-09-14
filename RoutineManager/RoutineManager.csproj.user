@@ -2,9 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugFramework>net8.0-windows10.0.19041.0</ActiveDebugFramework>
-    <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
-    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
+    <ActiveDebugProfile>Motorola moto e(7) plus (Android 10.0 - API 29)</ActiveDebugProfile>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>pixel_7_-_api_34</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
@@ -15,25 +15,16 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="NewRoutineButton\ExerciseCreator.xaml">
+    <MauiXaml Update="Vistas\DaySelector.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="NewRoutineButton\DaySelector.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="NewRoutineButton\PreloadedExercises.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="NewRoutineButton\RoutineAdder.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="NewRoutineButton\SavedExercises.xaml">
+    <MauiXaml Update="Vistas\RoutineAdder.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Routine\StartRoutine.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Routine\Exercise.xaml">
+    <MauiXaml Update="Routine\ExercisesDo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Routine\DaysOfRoutine.xaml">

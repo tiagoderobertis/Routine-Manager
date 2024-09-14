@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<TargetFrameworks>net8.0-android;net8.0-windows10.0.19041.0</TargetFrameworks>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.19041.0</SupportedOSPlatformVersion>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
 
@@ -58,28 +59,25 @@
 
 	<ItemGroup>
 	  <AndroidResource Remove="NewFolder1\**" />
-	  <AndroidResource Remove="NewFolder\**" />
 	  <Compile Remove="NewFolder1\**" />
-	  <Compile Remove="NewFolder\**" />
 	  <EmbeddedResource Remove="NewFolder1\**" />
-	  <EmbeddedResource Remove="NewFolder\**" />
 	  <MauiCss Remove="NewFolder1\**" />
-	  <MauiCss Remove="NewFolder\**" />
 	  <MauiXaml Remove="NewFolder1\**" />
-	  <MauiXaml Remove="NewFolder\**" />
 	  <None Remove="NewFolder1\**" />
-	  <None Remove="NewFolder\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.71" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.71" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="NewRoutineButton\ExerciseCreator.xaml.cs">
-	    <DependentUpon>ExerciseCreator.xaml</DependentUpon>
+	  <Compile Update="Routine\ExercisesDo.xaml.cs">
+	    <DependentUpon>ExercisesDo.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Routine\StartRoutine.xaml.cs">
 	    <DependentUpon>StartRoutine.xaml</DependentUpon>
@@ -90,28 +88,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="NewRoutineButton\ExerciseCreator.xaml">
+	  <MauiXaml Update="Vistas\DaySelector.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewRoutineButton\DaySelector.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="NewRoutineButton\PreloadedExercises.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="NewRoutineButton\RoutineAdder.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="NewRoutineButton\SavedExercises.xaml">
+	  <MauiXaml Update="Vistas\RoutineAdder.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Routine\StartRoutine.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="RoutineCreator.xaml">
+	  <MauiXaml Update="Vistas\RoutineCreator.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Routine\Exercise.xaml">
+	  <MauiXaml Update="Routine\ExercisesDo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Routine\DaysOfRoutine.xaml">

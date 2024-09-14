@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:local="clr-namespace:RoutineManager.ModeloVistas"
+             x:Class="RoutineManager.Vistas.RoutineAdder"
+             Title="RoutineAdder">
+
+    <ContentPage.BindingContext>
+        <local:RoutineAdderViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="20">
+        <toolkit:Expander>
+            <toolkit:Expander.Header>
+                <Label Text="Ejercicio nuevo" />
+            </toolkit:Expander.Header>
+            <toolkit:Expander.Content>
+                <VerticalStackLayout>
+                    <Entry Text="{Binding ExerciseName}" Placeholder="Nombre del ejercicio" />
+                    <Grid HorizontalOptions="StartAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Duración del ejercicio (minutos):"
+                           Grid.Row="0" 
+                           Grid.Column="0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="EndAndExpand" />
+                        <Entry Text="{Binding MinutesInput, Mode=TwoWay}"
+                               Grid.Row="0"
+                               Grid.Column="1"
+                               Keyboard="Numeric"
+                               Placeholder="Minutos"
+                                />
+
+                        <Label Text="Duración del ejercicio (segundos):"
+                           Grid.Row="1"
+                           Grid.Column="0"
+                           VerticalOptions="Center"
+                           HorizontalOptions="EndAndExpand" />
+                        <Entry Text="{Binding SecondsInput, Mode=TwoWay}"
+                               Grid.Row="1"
+                               Grid.Column="1"
+                               Keyboard="Numeric"
+                               Placeholder="Segundos"
+                                />
+
+                    </Grid>
+
+                    <Button Text="Agregar" Command="{Binding SaveCommand}" />
+                </VerticalStackLayout>
+            </toolkit:Expander.Content>
+        </toolkit:Expander>
+    </VerticalStackLayout>
+</ContentPage>
+
+
