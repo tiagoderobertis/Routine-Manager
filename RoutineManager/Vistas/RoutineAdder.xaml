@@ -6,10 +6,6 @@
              x:Class="RoutineManager.Vistas.RoutineAdder"
              Title="RoutineAdder">
 
-    <ContentPage.BindingContext>
-        <local:RoutineAdderViewModel />
-    </ContentPage.BindingContext>
-
     <VerticalStackLayout Padding="20">
         <toolkit:Expander>
             <toolkit:Expander.Header>
@@ -55,6 +51,7 @@
                     </Grid>
 
                     <Button Text="Agregar" Command="{Binding SaveCommand}" />
+                    
                 </VerticalStackLayout>
             </toolkit:Expander.Content>
         </toolkit:Expander>

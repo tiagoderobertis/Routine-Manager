@@ -70,6 +70,7 @@ namespace RoutineManager.ModeloVistas
             }
         }
 
+        
         private int _days = 4;
         public int Days
         {
@@ -102,7 +103,7 @@ namespace RoutineManager.ModeloVistas
                         {
                             Name = _name,
                             Description = _description,
-                            Days = _days
+                            Id_day = Days
                         };
                         await _routineRepository.AddRoutineAsync(newRoutine);
                         AddButton();
@@ -129,7 +130,7 @@ namespace RoutineManager.ModeloVistas
 
         private async Task AddExercisesOnClicked()
         {
-            var routineAdder = new RoutineAdder();
+            var routineAdder = new RoutineAdder(_db);
             await Application.Current.MainPage.Navigation.PushAsync(routineAdder);
         } // 
 

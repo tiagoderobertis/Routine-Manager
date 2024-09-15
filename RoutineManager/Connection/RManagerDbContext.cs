@@ -11,9 +11,10 @@ namespace RoutineManager.Connection
         {
         }
 
-        public DbSet<Exercise> Exercises { get; set; }
+        public DbSet<Exercise> Exercise { get; set; }
         public DbSet<Routines> Routines { get; set; }
         public DbSet<RoutineExercise> RoutineExercises { get; set; }
+        public DbSet<Days> Days { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

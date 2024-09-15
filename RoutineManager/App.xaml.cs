@@ -27,6 +27,8 @@ namespace RoutineManager
             _serviceProvider = serviceProvider;
         }
 
+        
+
         public static IServiceProvider ServiceProvider => _serviceProvider;
     }
 }

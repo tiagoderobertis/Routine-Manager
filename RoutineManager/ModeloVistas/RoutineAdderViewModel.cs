@@ -1,15 +1,26 @@
-﻿using System;
+﻿using RoutineManager.Connection;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
+using RoutineManager.Data_Access;
+using RoutineManager.Modelos;
 
 namespace RoutineManager.ModeloVistas
 {
     public class RoutineAdderViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
+        private readonly ExerciseRepository _exerciseRepository;
+        private readonly RManagerDbContext _db;
+        public RoutineAdderViewModel(RManagerDbContext db, ExerciseRepository exerciseRepository)
+        {
+            _exerciseRepository = exerciseRepository;
+            _db = db;
+            SaveCommand = new Command(async () => await SaveExercise());
+        }
 
         #region Properties
 
@@ -83,15 +94,25 @@ namespace RoutineManager.ModeloVistas
 
         public ICommand SaveCommand { get; }
 
-        private void SaveExercise()
+        private async Task SaveExercise()
         {
-            // TO DO
-        }
+            // Verifica que el nombre del ejercicio no esté vacío
+            if (string.IsNullOrWhiteSpace(ExerciseName))
+            {
+                throw new InvalidOperationException("El nombre del ejercicio no puede estar vacío.");
+            }
 
-        public RoutineAdderViewModel()
-        {
-            SaveCommand = new Command(SaveExercise);
+            // Crea un nuevo ejercicio
+            var newExercise = new Exercise
+            {
+                Exercise_Name = ExerciseName
+            };
+
+            // Guarda el nuevo ejercicio en la base de datos
+            await _exerciseRepository.AddExerciseAsync(newExercise);
+            await _db.SaveChangesAsync();
         }
+        
 
         #endregion
 

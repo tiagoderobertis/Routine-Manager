@@ -1,5 +1,7 @@
-﻿using RoutineManager.Connection;
+﻿using Microsoft.EntityFrameworkCore;
+using RoutineManager.Connection;
 using RoutineManager.Modelos;
+using System.Linq;
 
 namespace RoutineManager.Data_Access
 {
@@ -16,9 +18,31 @@ namespace RoutineManager.Data_Access
 
         public async Task AddExerciseAsync(Exercise exercise)
         {
-            _dbContext.Exercises.Add(exercise);
+            _dbContext.Exercise.Add(exercise);
             await _dbContext.SaveChangesAsync();
         }
+
+        public async Task UpdateExerciseAsync(int id, string name)
+        {
+            
+            var select = await _dbContext.Exercise
+                 .Where(r => r.ID_Exercise.Equals(id))
+                 .FirstOrDefaultAsync();
+
+            if (select != null)
+            {
+                select.Exercise_Name = name;
+            }
+
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task DeleteExerciseAsync(Exercise exercise)
+        {
+            _dbContext.Exercise.Remove(exercise);
+            await _dbContext.SaveChangesAsync();
+        }
+
 
     }
 }

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-14T20:08:56.801</Modified>
+      <Modified>2024-09-15T02:07:04.074</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-09-14T18:39:15.341</Modified>
+      <Modified>2024-09-15T01:39:22.145</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RoutineManager.runtimeconfig.json">
       <PackagePath>RoutineManager.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RoutineManager.dll">
       <PackagePath>RoutineManager.dll</PackagePath>
-      <Modified>2024-09-14T20:08:55.660</Modified>
+      <Modified>2024-09-15T02:07:03.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>RoutineManager.exe</PackagePath>
-      <Modified>2024-09-14T20:08:55.707</Modified>
+      <Modified>2024-09-15T02:07:03.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -296,7 +296,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\source\repos\Routine-Manager\RoutineManager\RoutineManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\RoutineManager.deps.json">
       <PackagePath>RoutineManager.deps.json</PackagePath>
-      <Modified>2024-09-14T18:39:15.029</Modified>
+      <Modified>2024-09-15T01:39:21.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tiago\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
