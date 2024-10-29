@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Routine Manager</h1>
-<p>This project started with the goal of making it easier to have a register of your gym training, so it would help you not to lose motivation, and errasing the need to think too much to go to the gym.</p>
+<p>This project started with the goal of making it easier to have a register of your gym training, so it would help you not to lose motivation and erasing the need to think too much to go to the gym.</p>
 <p>I put a lot of effort on this project, but I decided not to continue with it. However, it helped me to learn a lot of new things.</p>
 
 <h2>Key Learning and Experience Gained</h2>
